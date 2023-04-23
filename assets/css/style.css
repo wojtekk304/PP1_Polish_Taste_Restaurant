@@ -4,9 +4,24 @@
 margin: 0;
 padding: 0;
 border: 0;
+color: #606060;
 }
 
 body {
     font-family: 'Libre Baskerville', serif;
     font-weight: 400;
+}
+
+/*Heading and Logo*/
+h1, h2 {
+    font-family: 'Libre Baskerville', serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #202020;
+}
+
+#logo {
+    float: left;
+    margin-left: 25px;
+    font-size: 200%;
 }
