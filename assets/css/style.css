@@ -55,3 +55,21 @@ h1, h2 {
 .current {
     border-bottom: 2px solid #606060;
 }
+
+/*Main image and Text*/
+#main-outer {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+#main-image {
+   
+  background: url(../images/pexels-helena-lopes-1861785.jpg);
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
