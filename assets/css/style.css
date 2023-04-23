@@ -4,19 +4,19 @@
 margin: 0;
 padding: 0;
 border: 0;
-color: #606060;
 }
 
 body {
     font-family: 'Libre Baskerville', serif;
     font-weight: 400;
+    color: #606060;
 }
 
 /*Heading and Logo*/
 h1, h2 {
     font-family: 'Libre Baskerville', serif;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     color: #202020;
 }
 
@@ -24,4 +24,34 @@ h1, h2 {
     float: left;
     margin-left: 25px;
     font-size: 200%;
+}
+
+/*Navigation Links*/
+
+#nav-bar {
+    font-size: 105%;
+    letter-spacing: 2px;
+}
+
+#logo, #nav-bar {
+    line-height: 50px;
+}
+
+#nav-bar li {
+    float: right;
+    list-style-type: none;
+    margin-right: 25px;
+}
+
+#nav-bar a {
+    text-decoration: none; 
+    color: inherit;
+}
+
+#nav-bar a:hover {
+    border-bottom: 2px solid #606060;
+}
+
+.current {
+    border-bottom: 2px solid #606060;
 }
