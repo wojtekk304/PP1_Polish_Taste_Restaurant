@@ -73,3 +73,27 @@ h1, h2 {
     background-size: cover;
     position:relative;
 }
+
+#cover-text, #cover-text h2 {
+    color: #ffffff;
+}
+#cover-text {
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 100%;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+
+
+    width: 350px;
+    height: 150px;
+
+    background-color: rgba(32,32,32,.4);
+
+    bottom: 150px;
+    left: 400px;
+    position: absolute;
+}
