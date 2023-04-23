@@ -3,7 +3,6 @@
 *{
 margin: 0;
 padding: 0;
-border: 0;
 }
 
 body {
@@ -12,7 +11,18 @@ body {
     color: #606060;
 }
 
-/*Heading and Logo*/
+/*Headings and Logo*/
+
+.main-headings {
+    margin: 35px;
+    font-size: 200%;
+    border-style: double;
+    border-radius: 50px;
+    border-width: 4px;
+    display: inline-block;
+    padding: 10px;
+}
+
 h1, h2 {
     font-family: 'Libre Baskerville', serif;
     text-transform: uppercase;
@@ -82,12 +92,11 @@ h1, h2 {
 }
 #cover-text {
     font-family: 'Libre Baskerville', serif;
-    font-style: italic;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 100%;
     padding-left: 30px;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 10px;
 
 
@@ -99,4 +108,52 @@ h1, h2 {
     bottom: 150px;
     left: 400px;
     position: absolute;
+}
+#polish-taste {
+    text-align: center;
+    padding-right: 35px;
+}
+
+#soul {
+    font-style: italic;
+}
+
+/*About Us*/
+
+#about-us {
+    height: 500px;
+    text-align: center;
+}
+
+
+#about-us-left {
+    padding-top: 160px;
+    width: 50%;
+    float: left;
+}
+
+#about-us-right {
+    padding-top: 160px;
+    width: 50%;
+    float: right;
+}
+
+/*hr {
+    border-top: 2px solid black;
+    width: 80%;
+    margin: 3px 0;
+}*/
+
+.about-us-heading-left {
+    width: 100%;
+    clear: both;
+    line-height: 40px;
+    margin-bottom: 5px;
+}
+
+.about-us-heading-right {
+    width: 100%;
+    clear: both;
+    line-height: 40px;
+    margin-bottom: 5px;
 }
