@@ -13,6 +13,11 @@ body {
 
 /*Headings and Logo*/
 
+#header {
+    height: 100px;
+}
+
+
 .main-headings {
     margin: 35px;
     font-size: 200%;
@@ -258,8 +263,4 @@ div.description {
     background-size: cover;
     height: 850px;
     padding-bottom: 300px;
-}
-
-#header {
-    height: 100px;
 }
