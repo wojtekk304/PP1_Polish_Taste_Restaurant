@@ -101,7 +101,7 @@ h1, h2 {
 
 
     width: 350px;
-    height: 150px;
+    height: 200px;
 
     background-color: rgba(32,32,32,.4);
 
@@ -121,28 +121,24 @@ h1, h2 {
 /*About Us*/
 
 #about-us {
-    height: 500px;
+    height: 350px;
     text-align: center;
 }
 
 
 #about-us-left {
     padding-top: 160px;
-    width: 50%;
+    padding-left: 10px;
+    width: 40%;
     float: left;
 }
 
 #about-us-right {
     padding-top: 160px;
-    width: 50%;
+    padding-right: 10px;
+    width: 40%;
     float: right;
 }
-
-/*hr {
-    border-top: 2px solid black;
-    width: 80%;
-    margin: 3px 0;
-}*/
 
 .about-us-heading-left {
     width: 100%;
@@ -156,4 +152,37 @@ h1, h2 {
     clear: both;
     line-height: 40px;
     margin-bottom: 5px;
+}
+
+#menu {
+    text-align: center;
+    height: 750px;
+}
+
+.menu-container {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-flex {
+    flex-basis: 50%;
+    flex-grow: 1;
+}
+
+#menu p {
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.menu-headings {
+    color: black;
+    font-size: 150%;
+    font-style: italic;
+}
+
+.price {
+    color: #000000;
+    font-weight: bold;
 }
