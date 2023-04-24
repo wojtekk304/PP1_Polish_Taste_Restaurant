@@ -192,6 +192,11 @@ h1, h2 {
     height: 100px;
 }
 
+.footer-headings {
+    color: black;
+    font-size: 150%;
+}
+
 .footer-container {
     height: 100px;
     width: 100%;
