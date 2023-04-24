@@ -156,11 +156,11 @@ h1, h2 {
 
 #menu {
     text-align: center;
-    height: 750px;
+    height: 700px;
 }
 
 .menu-container {
-    height: 600px;
+    height: 450px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -185,4 +185,37 @@ h1, h2 {
 .price {
     color: #000000;
     font-weight: bold;
+}
+
+#contact-details {
+    text-align: center;
+    height: 100px;
+}
+
+.footer-container {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.footer-flex {
+    flex-basis: 33%;
+    flex-grow: 1;
+}
+
+.social-networks {
+text-align: center;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 300%;
+    color: #606060;
+    margin: 2px;
+    padding: 3%;
 }
