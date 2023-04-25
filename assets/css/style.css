@@ -387,14 +387,15 @@ div.description {
 
 /*Small 450px*/
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 450px){
     .reservation-form {
-        margin-left: 10px;
+        margin-left: 100px;
     }
 
     div.gallery {
         width: 350px;
     
+}
 }
 
 #about-us {
