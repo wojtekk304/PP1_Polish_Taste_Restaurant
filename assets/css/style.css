@@ -43,14 +43,22 @@ h1, h2 {
 
 /*Navigation Links*/
 
+
+
+
 #nav-bar {
     font-size: 105%;
     letter-spacing: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
 }
 
 #logo, #nav-bar {
     line-height: 50px;
 }
+
+
 
 #nav-bar li {
     float: right;
@@ -70,6 +78,7 @@ h1, h2 {
 .current {
     border-bottom: 2px solid #606060;
 }
+
 
 /*Main image and Text*/
 #main-outer {
@@ -142,35 +151,6 @@ h1, h2 {
 #about-us {
     height: 350px;
     text-align: center;
-}
-
-
-#about-us-left {
-    padding-top: 160px;
-    padding-left: 10px;
-    width: 40%;
-    float: left;
-}
-
-#about-us-right {
-    padding-top: 160px;
-    padding-right: 10px;
-    width: 40%;
-    float: right;
-}
-
-.about-us-heading-left {
-    width: 100%;
-    clear: both;
-    line-height: 40px;
-    margin-bottom: 5px;
-}
-
-.about-us-heading-right {
-    width: 100%;
-    clear: both;
-    line-height: 40px;
-    margin-bottom: 5px;
 }
 
 #menu {
@@ -278,6 +258,7 @@ div.description {
     background-size: cover;
     height: 850px;
     padding-bottom: 300px;
+    margin-top: 10px;
 }
 
 .reservation-form {
@@ -329,3 +310,36 @@ div.description {
     background-color: #fafafa;
     color: #606060;
 }
+
+/*Media Queries*/
+
+/*Large and Medium 1550px*/
+
+@media screen and (max-width: 1550px) {
+    #gallery-section {
+        height: 1550px;
+    }
+}
+
+/*Large and Medium 1200px*/
+
+@media screen and (max-width: 1200px) {
+    .reservation-form {
+        margin-left: 400px;
+    }
+}
+
+/*Medium 960px*/
+
+@media screen and (max-width: 1200px) {
+    .reservation-form {
+        margin-left: 300px;
+    }
+    #reservation-form-section {
+        margin-top: 40px;
+    }
+    
+}
+
+
+    
