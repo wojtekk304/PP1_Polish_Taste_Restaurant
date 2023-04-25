@@ -327,11 +327,15 @@ div.description {
     .reservation-form {
         margin-left: 400px;
     }
+
+    #gallery-section {
+        height: 2800px;
+    }
 }
 
 /*Medium 960px*/
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 960px) {
     .reservation-form {
         margin-left: 300px;
     }
@@ -339,6 +343,66 @@ div.description {
         margin-top: 40px;
     }
     
+    #cover-text {
+        left: 200px;
+    }
+}
+
+/*Medium 800px*/
+
+@media screen and (max-width: 800px) {
+    .reservation-form {
+        margin-left: 200px;
+    }
+    #reservation-form-section {
+        margin-top: 40px;
+    }
+    
+}
+
+/*Small 640px*/
+
+@media screen and (max-width: 640px) {
+    .reservation-form {
+        margin-left: 100px;
+    }
+
+    div.gallery {
+        width: 400px; 
+}
+
+#about-us {
+    height: 500px;
+}
+
+#menu {
+    height: 950px;
+}
+
+#cover-text {
+    left: 5px;
+    width: 80%;
+}
+}
+
+/*Small 450px*/
+
+@media screen and (max-width: 450px) {
+    .reservation-form {
+        margin-left: 10px;
+    }
+
+    div.gallery {
+        width: 350px;
+    
+}
+
+#about-us {
+    height: 560px;
+}
+
+#menu {
+    height: 1100px;
 }
 
 
