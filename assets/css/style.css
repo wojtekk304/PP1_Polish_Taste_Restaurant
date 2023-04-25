@@ -125,6 +125,20 @@ h1, h2 {
 
 /*About Us*/
 
+
+.about-us-container {
+    height: 450px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-flex {
+    flex-basis: 50%;
+    flex-grow: 1;
+}
+
+
 #about-us {
     height: 350px;
     text-align: center;
