@@ -1,108 +1,126 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png) 
+# Polish Taste Restaurant
 
-Welcome Wojciech Karakula,
+## It's a site made for a polish restaurant based in Ireland. This site was made as a part of my course project 1.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+# Content
+* [User Experiences](#ux)
+    * [Design](#design)
+    * [Wireframe](#wireframe)
+    * [Images](#images)
+    * [Fonts](#fonts)
+    * [Features](#features)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+* [Testing](#testing)
+    * [Validation](#validation)
+    * [Issues](#issues)
+    * [Deployment](#deployment)
+    * [Lighthouse](#lighthouse)
 
-## Gitpod Reminders
+* [Technology Used By Me](#technology-used-by-me)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+* [Credits](#credits)
+    * [Images](#images)
+    * [Code](#code)
+    * [Acknowledgments](#acknowledgments)
 
-`python3 -m http.server`
+## You can See the website here [Polish Taste Restaurant](https://wojtekk304.github.io/PP1_Polish_Taste_Restaurant/)
 
-A blue button should appear to click: _Make Public_,
+## This site can be viewed in diffrent devices such as Desktop, Mobile,Tablet and Laptop as Demonstrated in the picture below. ![Responsive Image](assets/images/responsive.png)
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+# UX
 
-A blue button should appear to click: _Make Public_,
+## Design 
+For my website I have used mostly 3 colors for the background I used #ffffff White ,for the Logo and main headings I used black #202020 and for the other text I used Grey #606060.
 
-Another blue button should appear to click: _Open Browser_.
+## Wireframe
+I have created wireframe for my website before starting to code it as It is easier for me to have the website layout planned out before I started. You can see the wireframes below, to do this I used balsamiq wireframe program.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Home Page
+![Home Page Wireframe](assets/images/wireframe_home.png)
 
-To log into the Heroku toolbelt CLI:
+### Gallery Page
+![Gallery Wireframe](assets/images/wireframe_gallery.png)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Reservations Page
+![Reservations Page Wireframe](assets/images/wireframe_reservation.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Images 
+I have used high quality pictures, because of the size and format used I have change the format from JPG to webp for faster loading times. I have used cloudcoverter.com toconvert the images.
 
-------
+## Fonts
+I mostly used Libre Baskerville, serif which I have Imported it from google fonts webpage.
 
-## Release History
+## Features
+I have included 3 main pages on the website and also Home page includes two subsections about us and menu.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* Home Page
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+Home page have a main picture with a message.
+![Main Image](assets/images/main.png)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+There is also about us section where I explained what food the resturant cook.
+![About Us Image](assets/images/about_us.png)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+Menu is included on the home page after about us section.
+![Menu Image](assets/images/menu.png)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+The footer have opening times social media links and contact information.
+![Footer Image](assets/images/footer.png)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+* Gallery Page
+This page includes images of the food made in the restaurant.
+![Gallery Image](assets/images/gallery-page.png)
+*  Reservations Page
+This page includes a form to reserve a table at the restaurant.
+![Form Image](assets/images/reservation.png)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Testing
+I have tested my website everytime I have added new line of code of html and css.
+I have done that by saving my code and preview it in local server from gitpod,if everything was ok I would then continue with my work If I have found any error in responsivness of my website I would always correct it before I continue.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Validation
+I have validate my code by using w3c html and css validators, there was no errors reported on any of the code.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Issues
+I have encountered and Issue with the nav bar as it was not responsive in mobile version in order to fix it I have to change the code to use flexbox instead which I have learned it from w3c school.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Deployment
+I have used Github Pages to Deploy my website.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Lighthouse
+I have used Lighthouse to determinate performance,accessability,best practices and SEO.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Home Page
+![Home page Lighthouse](assets/images/Home_Lighthouse.png)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Gallery Page
+![Gallery page Lighthouse](assets/images/Gallery_Lighthouse.png)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Reservations Page
+![Reservations page Lighthouse](assets/images/Reservation_Lighthouse.png)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+# Technology Used By Me
 
-------
+** HTML
+* CSS
+* w3c Validator
+* Balsamiq Wireframe
+* Github and Gitpod
+* Google Fonts
+* Google Lighthouse
+* Cloud Convert
 
-## FAQ about the uptime script
+# Credits
 
-**Why have you added this script?**
+### Images
+All my images used in the gallery and main picture were sourced from pexels.com which is a free source website for images.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Code
+I have used a code for my gallery section and from w3c school website https://www.w3schools.com/ and later have edited it myself, I have also used this website to understand flexbox more in depth.
+Code institute All other code was sourced from learning it though the course content.
 
-**How will this affect me?**
+### Acknowledgments
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+I would like to thank my class and my cohort facilitator for all the help provided.
